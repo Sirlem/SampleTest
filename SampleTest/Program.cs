@@ -14,7 +14,7 @@ namespace SampleTest
             Console.WriteLine("NAME                MARKS               GRADE");
             Console.WriteLine("---------------------------------------------");
 
-            Console.WriteLine($"{student1.firstname} {student1.lastname}           {student1.Grade} {student1.mark}");
+            Console.WriteLine($"{student1.firstname} {student1.lastname}          {student1.Grade} {student1.mark}");
             Console.WriteLine($"{student2.firstname} {student2.lastname}            {student2.mark}   {student2.Grade}");
             Console.WriteLine($"{student3.firstname} {student3.lastname}             {student3.mark}   {student3.Grade}");
             Console.WriteLine($"{student4.firstname} {student4.lastname}              {student4.mark}   {student4.Grade}");
