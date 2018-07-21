@@ -20,7 +20,6 @@ namespace SampleTest
             Console.WriteLine($"{student4.firstname} {student4.lastname}              {student4.mark}   {student4.Grade}");
             Console.WriteLine($"{student5.firstname} {student5.lastname}             {student5.mark}   {student5.Grade}");
             Console.ReadLine();
-
         }
 
     }
