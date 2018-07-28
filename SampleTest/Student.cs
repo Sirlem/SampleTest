@@ -8,13 +8,15 @@ namespace SampleTest
     {
         public string firstname { get; set; }
         public string lastname { get; set; }
-        public int mark;
+        public int mark { get; set; }
+        public string grade;
 
         public Student(string StudentFirstname, string StudentLastname, int StudentMarks)
         {
             firstname = StudentFirstname;
             lastname = StudentLastname;
             mark = StudentMarks;
+         
         }
         public int MARKS
         {
