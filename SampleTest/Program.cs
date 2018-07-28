@@ -13,7 +13,7 @@ namespace SampleTest
             Student student5 = new Student("JOHN","DOE", 40);
             
             Console.WriteLine("Names         Marks       Grades");
-            Console.WriteLine("--------------------------------");
+            Console.WriteLine("---------------------------------");
             Console.Write($"{student1.firstname} {student1.lastname}     {student1.mark}           ");
             Console.Write($"{student1.Grade}");
             Console.Write($"{student2.firstname} {student1.lastname}      {student2.mark}           ");
